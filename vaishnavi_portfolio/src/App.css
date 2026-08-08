@@ -130,7 +130,7 @@ h2 { font-size: clamp(2.5rem, 5vw, 4.6rem); }
 .contact-content { position: relative; z-index: 1; }
 .contact-section .eyebrow { color: #c9c5ff; }
 .contact-content > p:not(.eyebrow) { margin: 2rem 0; color: #e6e4f0; font-size: 1.1rem; }
-.contact-links { display: flex; gap: 2rem; }
+.contact-links { display: flex; flex-wrap: wrap; gap: 1.5rem 2rem; }
 .contact-links a { display: inline-flex; align-items: center; gap: .5rem; padding-bottom: .4rem; color: #fff; border-bottom: 1px solid rgba(255,255,255,.55); font-size: 1.15rem; font-weight: 750; text-decoration: none; }
 .contact-links a svg { transition: transform .25s ease; }
 .contact-links a:hover { border-color: #fff; }

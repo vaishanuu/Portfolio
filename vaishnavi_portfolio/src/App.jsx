@@ -163,6 +163,8 @@ function App() {
             <div className="contact-links">
               <a href={linkedin} target="_blank" rel="noreferrer">LinkedIn <ExternalIcon /></a>
               <a href={github} target="_blank" rel="noreferrer">GitHub <ExternalIcon /></a>
+              <a href="mailto:vaishnavisri334@gmail.com">Email <ExternalIcon /></a>
+              <a href="tel:+919398661705">+91 93986 61705 <ExternalIcon /></a>
             </div>
           </div>
         </section>
